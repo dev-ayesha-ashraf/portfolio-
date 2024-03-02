@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Personal Portfolio</title>
+
+    <link rel="shortcut icon" href="https://www.elmanawy.info/demo/mulan-cms/cdn/settings/system-favicon.png"
+        type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/bootstrap.min.css"
+        type="text/css">
+    <!-- Animation -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/animate.min.css" type="text/css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/owl.carousel.min.css"
+        type="text/css">
+    <!-- Light Case -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/lightcase.min.css"
+        type="text/css">
+    <!-- Date Dropper -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/datedropper.css" type="text/css">
+    <!-- Time Dropper -->
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/timedropper.css" type="text/css">
+    <!-- Template style -->
+    <link rel="stylesheet" href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/style.css"
+        type="text/css">
+    <link rel="stylesheet"
+        href="https://www.elmanawy.info/demo/mulan-cms/styles/site/default/assets/css/colors/default.css"
+        type="text/css">
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- box icons font  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div id="preloader">
+
+    </div>
+    <div class="responsive-header">
+        <div class="name">
+            <img src="./round.jpg" alt="" class="nav-image">
+            Ayesha Ashraf
+        </div>
+        <span class="responsive-icons">
+            <input type="checkbox" name="" id="check" class="d-none">
+            <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+        </span>
+    </div>
+
+    <header class="header">
+        <div class="header-work">
+            <div class="picture">
+                <div class="portfolio-pic">
+                    <div class="photo">
+                        <img src="./round.jpg" class="img-fluid" alt="Mulan Rafiki">
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <div>Ayesha Ashraf</div>
+                <div class="headline">
+                    <ul class="typewriter">
+                        <li>Web Developer</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home </a></li>
+                    <li><a href="#about-me"><i class="fas fa-user-tie"></i>About me</a></li>
+                    <li><a href="#resume"><i class="fas fa-award"></i>Resume</a></li>
+                    <li><a href="#skills"><i class="fas fa-business-time"></i>skills </a></li>
+                    <li><a href="#projects"><i class="fas fa-business-time"></i>projects </a></li>
+                    <li><a href="#contact"><i class="fas fa-paper-plane"></i>Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <div class="hero-page" id="home" class="home">
+            <div class="inner">
+                <div class="home-content">
+                    <h1>Hi, I'm <span>Ayesha Ashraf</span></h1>
+                    <div class="line"></div>
+                    <div class="text-animate">
+                        <h3>Mern Stack Developer</h3>
+                    </div>
+                    <p>Creating seamless user experiences through innovative mern stack development. Building responsive
+                        and dynamic web applications and mobile applications for the modern digital world.</p>
+                    <div class="btn-box">
+                        <a href="#" class="btn">Hire Me</a>
+                        <a href="#" class="btn">Let's Talk</a>
+
+                    </div>
+                </div>
+                <div class="inner-image">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-me" class="about">
+        <div class="about-inner">
+            <div class="about-title">
+                <div class="about-main">
+                    <h4 class="heading-four">ABOUT ME</h4>
+                </div>
+            </div>
+            <div class="about-img">
+                <div class="circle-spin">
+                    <i class="bi bi-person-circle"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>
+                    Front-end Developer !
+                </h3>
+                <p id="aboutPara">Welcome to my professional portfolio! As a seasoned MERN stack developer, I specialize
+                    in crafting elegant and high-performance web solutions that leverage MongoDB, Express.js, React.js,
+                    and Node.js. With a meticulous eye for detail and proficiency in both frontend and backend
+                    technologies, I deliver comprehensive digital experiences that seamlessly integrate user interfaces
+                    with robust server-side functionality</p>
+                <div class="btn-box btns">
+                    <button class="btn" id="readBtn" onclick="handleBtn()">Read More</button>
+                    <button class="btn btn2" id="readless" onclick="handleLessBtn()">See Less</button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="resume" class="resume">
+        <div class="resume-inner">
+            <div class="resume-title">
+                <div class="resume-main">
+                    <h4 class=" resume-heading">RESUME</h4>
+                </div>
+            </div>
+        </div>
+        <h2>Education</h2>
+        <div class="education">
+            <div class="education-column">
+                <div class="education-box">
+                    <div class="before-div">
+                        <div class="education-content">
+                            <div class="year">
+                                <i class="bi bi-calendar-week-fill"></i> 2019 - 2021
+                                <h3>Matriculation - schooling</h3>
+                                <p>Completed matriculation in bio-science from KMA education board with 88% in 2021.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="education-box">
+                    <div class="before-div">
+                        <div class="education-content">
+                            <div class="year">
+                                <i class="bi bi-calendar-week-fill"></i> 2021 - 2023
+                                <h3>Intermediate - college</h3>
+                                <p>Completed intermediatee in commerce field from KMA education board in 2023. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="education-box">
+                    <div class="before-div">
+                        <div class="education-content">
+                            <div class="year">
+                                <i class="bi bi-calendar-week-fill"></i> 2022 - 2023
+                                <h3>Mern Stack development</h3>
+                                <p>Currently engaged in full stack development course since 6 months from SMIT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <h2>Languages</h2>
+            <div class="languages">
+                <div class="skill">
+                    <div class="outer">
+                        <div class="skill-inner">
+                            <div id="number">
+
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Urdu</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+                <div class="skill-two">
+                    <div class="outer-two">
+                        <div class="skill-inner-two">
+                            <div id="number-two">
+
+                            </div>
+                        </div>
+                    </div>
+                    <h1>English</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section id="skills" class="about">
+        <div class="about-inner">
+            <div class="about-title">
+                <div class="about-main">
+                    <h4 class="heading-four">My Skills</h4>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills-list">
+                <div class="work-skills">
+                    <div class="skill-anim">
+                        <div class="skill-block">
+                            <div class="section-head">
+                                <h4>
+                                    <span>My Professional</span>
+                                    Coding Skills
+                                </h4>
+                            </div>
+                            <div class="skill-items">
+                                <div class="skill-item1">
+                                    <div class="skill-topic">
+                                        <img src="./html.jpg" alt="">
+                                        <h4>HTML</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">95%</span>
+                                </div>
+                                <div class="skill-item1 skill-item2">
+                                    <div class="skill-topic">
+                                        <img src="./css.jpg" alt="">
+                                        <h4>CSS</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">85%</span>
+                                </div>
+                                <div class="skill-item1 skill-item5">
+                                    <div class="skill-topic">
+                                        <img src="./js.avif" alt="">
+                                        <h4>JAVASCRIPT</h4>
+
+                                    </div>
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">80%</span>
+                                </div>
+                                <div class="skill-item1 skill-item6">
+                                    <div class="skill-topic">
+                                        <img src="./bootstrap.png" alt="">
+                                        <h4>BOOTSTRAP</h4>
+
+                                    </div>
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">75%</span>
+                                </div>
+                                <div class="skill-item1 skill-item6">
+                                    <div class="skill-topic">
+                                        <img src="./git.png" alt="">
+                                        <h4>GITHUB</h4>
+
+                                    </div>
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">75%</span>
+                                </div>
+                                <div class="skill-item1">
+                                    <div class="skill-topic">
+                                        <img src="./react.png" alt="">
+                                        <h4>React</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">75%</span>
+                                </div>
+                                <div class="skill-item1 skill-item3">
+                                    <div class="skill-topic">
+                                        <img src="./tailwind.jpeg" alt="">
+                                        <h4>Tailwind</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">90%</span>
+                                </div>
+                                <div class="skill-item1 skill-item2">
+                                    <div class="skill-topic">
+                                        <img src="./express.png" alt="">
+                                        <h4>Express</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">85%</span>
+                                </div>
+                                <div class="skill-item1 skill-item5">
+                                    <div class="skill-topic">
+                                        <img src="./mongo.jpeg" alt="">
+                                        <h4>MongoDB</h4>
+                                    </div>
+
+                                    <div class="progress-border">
+                                        <div class="progress">
+                                            <div class="progress-bar">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section id="projects" class="resume">
+        <div class="resume-inner">
+            <div class="resume-title">
+                <div class="resume-main">
+                    <h4 class=" resume-heading">my projects</h4>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-label">
+            <span class="sub">Project</span>
+            <span class="portfolio-count">15</span>
+        </div>
+        <div class="blog-content" id="allPro">
+            <div class="blog-row">
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./clone.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://mulan-rafiki-web-clone.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Web Clone</h4>
+                        <p>
+                            cloned a website using HTML, CSS and JS . completely pixel perfect and responsive website
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./siimple.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://siimple-website-clone.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Web Clone</h4>
+
+                        <p>
+                            cloned a website using HTML, CSS and JS . completely pixel perfect and responsive website
+
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./idea.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://website-using-only-html.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Website Uding Only HTML</h4>
+
+                        <p>
+                            creaated a non-responsive website using only HTML. the topic of this project is freelancing
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-row">
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./login.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://facebook-login-page-3brc.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Facebook Login Page</h4>
+
+                        <p>
+                            creaated non responsive facebook-login-page using HTML and CSS. added animation.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./age-calc.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://age-calculator-three-nu.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Age Calculator</h4>
+
+                        <p>
+                            created my JS first projecr "age calculator" which calculates the age of a person
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./quiz.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://quiz-app-zeta-steel.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Quiz Application</h4>
+
+                        <p>
+                            created quiz application using HTML,CSS and JS which contains five questions
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-row">
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./BMI calc.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://bmi-calculator-omega-one.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+
+                        <h4>Bmi Calculator</h4>
+
+                        <p>
+                            created js project "BMI calculator" which takes input from user and calculate health
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./counter.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://counter-app-indol.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Counter App</h4>
+
+                        <p>
+                            created counter app which can be used in many websites e.g. "e-commerce website"
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./todo.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://todo-list-app-delta-gray.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Todo App</h4>
+
+                        <p>
+                            todo app is created which can help user to add thier todo in a list and delete when
+                            completed
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog-row">
+                <div class="blog-col">
+                    <div class="article-img">
+                        <img src="./typing.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://website-using-only-html-ivqv.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Typewriter Animation</h4>
+
+                        <p>
+                            creaated typewriter animation using only HTML and CSS. it contains four words.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./Tip Calc.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://tip-calculator-topaz.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>TIP Calculator</h4>
+
+                        <p>
+                            it calculates tip on the basis of bill and a tip percentage a user is willing to give tip
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./unit.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://unit-convertor-three.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Unit convertor</h4>
+
+                        <p>
+                            unit convertor which converts feet into inches and inches in to feet
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./tech.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://github.com/dev-ayesha-ashraf/techAcademy-website">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Tech Academy website</h4>
+                        <p>
+                            Created a website using HTML, CSS and JS . completely pixel perfect and responsive website
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./alarm.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://github.com/dev-ayesha-ashraf/techAcademy-website">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Tech Academy website</h4>
+                        <p>
+                            Created a website using HTML, CSS and JS . completely pixel perfect and responsive website
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-col">
+
+                    <div class="article-img">
+                        <img src="./share.png" alt="">
+                    </div>
+                    <div class="article-link">
+                        <a href="https://final-hackhathon-frontend.vercel.app/">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="article-text">
+                        <h4>Project sharing app</h4>
+                        <p>
+                            Created a project sharing app using Mern . completely pixel perfect and responsive website
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="about">
+        <div class="about-inner">
+            <div class="about-title">
+                <div class="about-main">
+                    <h4 class="heading-four">Contact Me</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-row">
+            <div class="contact-col1">
+                <img src="./mailbox.png" alt="">
+            </div>
+            <div class="contact-col2">
+                <div class="contact-form">
+                    <form action="">
+                        <input name="name" type="text" placeholder="Name:" required="" autocomplete="off">
+                        <input name="email" type="email" placeholder="Email:" required="" autocomplete="off">
+                        <textarea name="message" placeholder="Message:" required="" rows="6"></textarea>
+                    </form>
+                </div>
+                <div class="button-col">
+                    <a href="" class="button-submit appointment-button">Send Message</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="contact-head">
+
+
+                <div class="section-head">
+                    <h4><span>Contact Information</span>
+                        Find me here</h4>
+                </div>
+            </div>
+            <div class="contact-bar">
+                <div class="bar-col">
+                    <div class="bar-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="bar-text">
+                        <h2>Phone</h2>
+                        <p>(+92) 3308612116</p>
+                        <p>(+92) 3343663961</p>
+                    </div>
+                </div>
+                <div class="bar-col">
+                    <div class="bar-icon">
+                        <i class="far fa-envelope-open"></i>
+                    </div>
+                    <div class="bar-text">
+                        <h2>Email</h2>
+                        <p>ayeshaashraf0091@gmail.com</p>
+                        <p>ayeshaashraf0099@gmail.com</p>
+                    </div>
+                </div>
+                <div class="bar-col">
+                    <div class="bar-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="bar-text">
+                        <h2>Address</h2>
+                        <p>flat No.203 Ali Arcade</p>
+                        <p>karachi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="follow">
+            <div class="follow-block">
+                <h4>Follow Me:</h4>
+                <div class="follow-list">
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100093015843830&mibextid=ZbWKwL">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="https://instagram.com/coder.ayesha?igshid=ZDc4ODBmNjlmNQ==">
+                            <i class="fa-brands fa-instagram"></i>
+
+
+                        </a>
+
+
+                    </div>
+                    <div>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
